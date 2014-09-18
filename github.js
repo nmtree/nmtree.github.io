@@ -253,6 +253,7 @@ if (typeof exports !== 'undefined') {
 }).call(this);
 
 var github = new Github({
-  token : 'af605e9303fabef95f13ddcddd6e830285383b6f'
+  token : 'af605e9303fabef95f13ddcddd6e830285383b6f',
+  auth  : 'oauth'
 }); 
 
